@@ -8,7 +8,7 @@ formElement.addEventListener('submit', event => {
     const password = formElement.elements.password.value.trim();
 
     if (!email || !password) { 
-        alert = 'All form fields must be filled in';
+        alert('Всі поля форми повинні бути заповнені');
         return;
     }
 
